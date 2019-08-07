@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+a.page-link {
+  cursor: default
+}
+
+.error-text {
+  font-size: 0.6em;
+  color: #d8000c !important;
+}
+
+.justify-content-center {
+  justify-content: center
+}
+
+.content-inner {
+  flex: 1;
+  padding-top: 2em;
+}
+
+.pagination {
+  overflow: scroll
+}
+
+.page-size-container {
+  margin: 0em 0.8em;
+}
+
+.button-container {
+  right: 0;
+}
+
+.result-zone {
+  height: 100%;
+  padding-top: 2em;
+  
+}
+
+.result-list {
+  border-color: #707070;
+  border-radius: 0.4em;
+  -webkit-box-shadow: 0px 3px 60px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 3px 60px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 3px 60px 0px rgba(0,0,0,0.3);
+  padding: 10px 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-height: 30vh;
+  overflow: scroll
+}
+
+.number-container {
+  display: flex;
+  margin: 0.2em 0.2em;
+  padding: 0.2em 0.2em;
+  border: 0.6px solid #707070;
+}
+
+.pagination-container {
+  padding-top: 2em;
+}

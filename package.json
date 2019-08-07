@@ -1,0 +1,14 @@
+{
+  "name": "smart-dev-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "client":"cd client && npm install && npm start",
+    "server": "cd server && npm install && node app.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+  "dependencies": {
+    "concurrently": "^4.1.1"
+  }
+}
