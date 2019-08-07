@@ -1,8 +1,10 @@
 # Smart dev test
 
 ## Folder structure
-. client: front-end folder
-. server: back-end folder
+
+* client: front-end folder
+
+* server: back-end folder
 
 ## Command
 
