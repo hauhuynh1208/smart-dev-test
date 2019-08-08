@@ -51,7 +51,6 @@ class App extends React.Component {
     };
     render() {
         const { result } = this.state;
-        console.log(result.length && 1);
         return (
             <div className="container">
                 <div className="content-inner">
